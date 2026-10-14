@@ -1,6 +1,6 @@
 import React from "react";
 import empData from "./emp.json";
-import "./Emp.css";
+import "./emp.css";
 
 const Emp = () => {
   return (
