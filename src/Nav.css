@@ -1,0 +1,224 @@
+
+/* =========================
+   Main Navbar
+========================= */
+
+.navbar {
+    width: 100%;
+    min-height: 70px;
+    background: linear-gradient(135deg, #111827, #1f2937);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 12px 7%;
+    box-sizing: border-box;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+
+.logo {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+.logo:hover {
+    color: #38bdf8;
+}
+
+/* Navigation Links */
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+/* Individual Link */
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    position: relative;
+    white-space: nowrap;
+}
+
+/* Hover Effect */
+
+.nav-link:hover {
+    background: #ffffff;
+    color: #111827;
+    transform: translateY(-2px);
+}
+
+/* Underline Animation */
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    left: 50%;
+    bottom: 4px;
+    background: #38bdf8;
+    border-radius: 10px;
+    transition: width 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+    width: 60%;
+}
+
+/* Keyboard Accessibility */
+
+.nav-link:focus-visible {
+    outline: 2px solid #38bdf8;
+    outline-offset: 3px;
+}
+
+/* =========================
+   Laptop
+========================= */
+
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 12px 4%;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .nav-links {
+        gap: 5px;
+    }
+
+    .nav-link {
+        padding: 10px 12px;
+        font-size: 15px;
+    }
+}
+
+/* =========================
+   Tablet
+========================= */
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        padding: 15px 4%;
+    }
+
+    .logo {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .nav-link {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+}
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 480px) {
+    .navbar {
+        padding: 14px 16px;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 23px;
+    }
+
+    .nav-links {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        width: 100%;
+        gap: 8px;
+    }
+
+    .nav-link {
+        display: block;
+        text-align: center;
+        padding: 11px 6px;
+        font-size: 14px;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .nav-link:hover {
+        background: #ffffff;
+        color: #111827;
+        transform: none;
+    }
+
+    .nav-link::after {
+        display: none;
+    }
+}
+
+/* =========================
+   Extra Small Mobile
+========================= */
+
+@media (max-width: 320px) {
+    .navbar {
+        padding: 12px 10px;
+    }
+
+    .logo {
+        font-size: 21px;
+    }
+
+    .nav-links {
+        gap: 6px;
+    }
+
+    .nav-link {
+        padding: 10px 4px;
+        font-size: 12px;
+    }
+}
+
+/* =========================
+   Reduced Motion
+========================= */
+
+@media (prefers-reduced-motion: reduce) {
+    .navbar *,
+    .navbar *::before,
+    .navbar *::after {
+        transition: none !important;
+        animation: none !important;
+    }
+}

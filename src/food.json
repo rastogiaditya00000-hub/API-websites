@@ -1,0 +1,185 @@
+
+{
+  "foods": [
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "restaurant": "Pizza Hub",
+      "category": "Pizza",
+      "price": 249,
+      "discount": 15,
+      "rating": 4.5,
+      "isAvailable": true,
+      "isVeg": true,
+      "deliveryTime": 25
+    },
+    {
+      "id": 2,
+      "name": "Farmhouse Pizza",
+      "restaurant": "Domino's",
+      "category": "Pizza",
+      "price": 399,
+      "discount": 20,
+      "rating": 4.7,
+      "isAvailable": true,
+      "isVeg": true,
+      "deliveryTime": 30
+    },
+    {
+      "id": 3,
+      "name": "Chicken Burger",
+      "restaurant": "Burger Point",
+      "category": "Burger",
+      "price": 199,
+      "discount": 10,
+      "rating": 4.3,
+      "isAvailable": true,
+      "isVeg": false,
+      "deliveryTime": 20
+    },
+    {
+      "id": 4,
+      "name": "Veg Burger",
+      "restaurant": "Burger King",
+      "category": "Burger",
+      "price": 149,
+      "discount": 15,
+      "rating": 4.1,
+      "isAvailable": true,
+      "isVeg": true,
+      "deliveryTime": 18
+    },
+    {
+      "id": 5,
+      "name": "Paneer Butter Masala",
+      "restaurant": "Spice Garden",
+      "category": "Indian",
+      "price": 299,
+      "discount": 10,
+      "rating": 4.8,
+      "isAvailable": true,
+      "isVeg": true,
+      "deliveryTime": 35
+    },
+    {
+      "id": 6,
+      "name": "Chicken Biryani",
+      "restaurant": "Biryani House",
+      "category": "Biryani",
+      "price": 249,
+      "discount": 12,
+      "rating": 4.6,
+      "isAvailable": true,
+      "isVeg": false,
+      "deliveryTime": 30
+    },
+    {
+      "id": 7,
+      "name": "Veg Biryani",
+      "restaurant": "Royal Kitchen",
+      "category": "Biryani",
+      "price": 199,
+      "discount": 10,
+      "rating": 4.2,
+      "isAvailable": true,
+      "isVeg": true,
+      "deliveryTime": 28
+    },
+    {
+      "id": 8,
+      "name": "Masala Dosa",
+      "restaurant": "South Cafe",
+      "category": "South Indian",
+      "price": 129,
+      "discount": 5,
+      "rating": 4.4,
+      "isAvailable": true,
+      "isVeg": true,
+      "deliveryTime": 22
+    },
+    {
+      "id": 9,
+      "name": "Idli Sambhar",
+      "restaurant": "South Cafe",
+      "category": "South Indian",
+      "price": 99,
+      "discount": 10,
+      "rating": 4.0,
+      "isAvailable": false,
+      "isVeg": true,
+      "deliveryTime": 20
+    },
+    {
+      "id": 10,
+      "name": "French Fries",
+      "restaurant": "Snack Corner",
+      "category": "Snacks",
+      "price": 119,
+      "discount": 5,
+      "rating": 4.1,
+      "isAvailable": true,
+      "isVeg": true,
+      "deliveryTime": 15
+    },
+    {
+      "id": 11,
+      "name": "Chocolate Brownie",
+      "restaurant": "Sweet Treats",
+      "category": "Dessert",
+      "price": 149,
+      "discount": 20,
+      "rating": 4.7,
+      "isAvailable": true,
+      "isVeg": true,
+      "deliveryTime": 20
+    },
+    {
+      "id": 12,
+      "name": "Chocolate Milkshake",
+      "restaurant": "Shake Station",
+      "category": "Drinks",
+      "price": 129,
+      "discount": 10,
+      "rating": 4.3,
+      "isAvailable": true,
+      "isVeg": true,
+      "deliveryTime": 15
+    },
+    {
+      "id": 13,
+      "name": "Grilled Sandwich",
+      "restaurant": "Cafe Delight",
+      "category": "Sandwich",
+      "price": 159,
+      "discount": 15,
+      "rating": 4.2,
+      "isAvailable": false,
+      "isVeg": true,
+      "deliveryTime": 25
+    },
+    {
+      "id": 14,
+      "name": "Chicken Momos",
+      "restaurant": "Momo Express",
+      "category": "Momos",
+      "price": 179,
+      "discount": 10,
+      "rating": 4.5,
+      "isAvailable": true,
+      "isVeg": false,
+      "deliveryTime": 20
+    },
+    {
+      "id": 15,
+      "name": "Gulab Jamun",
+      "restaurant": "Sweet Treats",
+      "category": "Dessert",
+      "price": 89,
+      "discount": 5,
+      "rating": 4.6,
+      "isAvailable": true,
+      "isVeg": true,
+      "deliveryTime": 15
+    }
+  ]
+}

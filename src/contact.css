@@ -1,0 +1,206 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.contact-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 16px;
+  background:
+    radial-gradient(circle at top left, #c4b5fd 0%, transparent 35%),
+    radial-gradient(circle at bottom right, #93c5fd 0%, transparent 35%),
+    linear-gradient(135deg, #eef2ff, #f8fafc);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.contact-card {
+  width: 100%;
+  max-width: 520px;
+  padding: 45px 35px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  box-shadow: 0 25px 70px rgba(51, 65, 85, 0.15);
+  animation: cardEntry 0.7s ease;
+}
+
+.contact-badge {
+  display: inline-block;
+  padding: 9px 16px;
+  border-radius: 30px;
+  background: #ede9fe;
+  color: #6d28d9;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.contact-card h2 {
+  margin: 22px 0 10px;
+  color: #111827;
+  font-size: clamp(28px, 5vw, 38px);
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.contact-desc {
+  margin-bottom: 30px;
+  color: #64748b;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.color-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.color-buttons button {
+  min-width: 105px;
+  padding: 13px 24px;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.color-buttons button:hover {
+  transform: translateY(-5px) scale(1.04);
+}
+
+.color-buttons button:active {
+  transform: scale(0.96);
+}
+
+.btn-red {
+  background: linear-gradient(135deg, #ff5f6d, #dc2626);
+  box-shadow: 0 8px 20px rgba(220, 38, 38, 0.25);
+}
+
+.btn-green {
+  background: linear-gradient(135deg, #34d399, #059669);
+  box-shadow: 0 8px 20px rgba(5, 150, 105, 0.25);
+}
+
+.btn-blue {
+  background: linear-gradient(135deg, #60a5fa, #2563eb);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
+}
+
+.color-preview {
+  margin-top: 35px;
+  padding: 28px 15px;
+  border: 1px solid #e2e8f0;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.color-circle {
+  width: 65px;
+  height: 65px;
+  margin: 0 auto 18px;
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 0 5px 20px rgba(15, 23, 42, 0.18);
+  transition: background-color 0.3s ease,
+              transform 0.3s ease;
+}
+
+.color-preview:hover .color-circle {
+  transform: rotate(12deg) scale(1.1);
+}
+
+.color-preview h1 {
+  margin: 0 0 12px;
+  font-size: clamp(21px, 4vw, 28px);
+  font-weight: 800;
+  overflow-wrap: anywhere;
+}
+
+.color-preview p {
+  margin: 0;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.about-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 28px;
+  padding: 13px 23px;
+  border-radius: 12px;
+  background: #111827;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.about-link:hover {
+  background: #6d28d9;
+  transform: translateY(-3px);
+}
+
+.about-link span {
+  font-size: 20px;
+  transition: transform 0.25s ease;
+}
+
+.about-link:hover span {
+  transform: translateX(5px);
+}
+
+@keyframes cardEntry {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-card {
+    padding: 32px 18px;
+    border-radius: 22px;
+  }
+
+  .color-buttons {
+    gap: 10px;
+  }
+
+  .color-buttons button {
+    flex: 1;
+    min-width: 75px;
+    padding: 12px 14px;
+  }
+
+  .color-preview {
+    padding: 25px 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

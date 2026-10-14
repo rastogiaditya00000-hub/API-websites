@@ -1,0 +1,154 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self Help",
+      "year": 2018,
+      "price": 399,
+      "inStock": true,
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Fiction",
+      "year": 1988,
+      "price": 250,
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "title": "Wings of Fire",
+      "author": "A. P. J. Abdul Kalam",
+      "genre": "Biography",
+      "year": 1999,
+      "price": 199,
+      "inStock": false,
+      "rating": 4.7
+    },
+    {
+      "id": 4,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "genre": "Finance",
+      "year": 1997,
+      "price": 299,
+      "inStock": true,
+      "rating": 4.4
+    },
+    {
+      "id": 5,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "year": 1925,
+      "price": 180,
+      "inStock": true,
+      "rating": 4.2
+    },
+    {
+      "id": 6,
+      "title": "Ikigai",
+      "author": "Héctor García and Francesc Miralles",
+      "genre": "Self Help",
+      "year": 2016,
+      "price": 275,
+      "inStock": true,
+      "rating": 4.3
+    },
+    {
+      "id": 7,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "genre": "Productivity",
+      "year": 2016,
+      "price": 349,
+      "inStock": false,
+      "rating": 4.6
+    },
+    {
+      "id": 8,
+      "title": "Harry Potter and the Philosopher's Stone",
+      "author": "J. K. Rowling",
+      "genre": "Fantasy",
+      "year": 1997,
+      "price": 450,
+      "inStock": true,
+      "rating": 4.9
+    },
+    {
+      "id": 9,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "genre": "Finance",
+      "year": 2020,
+      "price": 320,
+      "inStock": true,
+      "rating": 4.7
+    },
+    {
+      "id": 10,
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "genre": "Personal Development",
+      "year": 1937,
+      "price": 220,
+      "inStock": true,
+      "rating": 4.1
+    },
+    {
+      "id": 11,
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "genre": "History",
+      "year": 2011,
+      "price": 499,
+      "inStock": true,
+      "rating": 4.6
+    },
+    {
+      "id": 12,
+      "title": "The Hobbit",
+      "author": "J. R. R. Tolkien",
+      "genre": "Fantasy",
+      "year": 1937,
+      "price": 375,
+      "inStock": false,
+      "rating": 4.8
+    },
+    {
+      "id": 13,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "genre": "Programming",
+      "year": 2008,
+      "price": 599,
+      "inStock": true,
+      "rating": 4.5
+    },
+    {
+      "id": 14,
+      "title": "You Don't Know JS Yet",
+      "author": "Kyle Simpson",
+      "genre": "Programming",
+      "year": 2020,
+      "price": 425,
+      "inStock": true,
+      "rating": 4.4
+    },
+    {
+      "id": 15,
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "genre": "Business",
+      "year": 2011,
+      "price": 350,
+      "inStock": true,
+      "rating": 4.2
+    }
+  ]
+}

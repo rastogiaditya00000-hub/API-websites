@@ -1,0 +1,170 @@
+
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 15",
+      "brand": "Apple",
+      "category": "Electronics",
+      "price": 69999,
+      "discount": 10,
+      "rating": 4.8,
+      "inStock": true,
+      "color": "Black"
+    },
+    {
+      "id": 2,
+      "name": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "category": "Electronics",
+      "price": 59999,
+      "discount": 15,
+      "rating": 4.6,
+      "inStock": true,
+      "color": "Blue"
+    },
+    {
+      "id": 3,
+      "name": "Nike Air Max",
+      "brand": "Nike",
+      "category": "Shoes",
+      "price": 8999,
+      "discount": 20,
+      "rating": 4.5,
+      "inStock": true,
+      "color": "White"
+    },
+    {
+      "id": 4,
+      "name": "Adidas Ultraboost",
+      "brand": "Adidas",
+      "category": "Shoes",
+      "price": 10999,
+      "discount": 12,
+      "rating": 4.7,
+      "inStock": false,
+      "color": "Black"
+    },
+    {
+      "id": 5,
+      "name": "Sony WH-1000XM5",
+      "brand": "Sony",
+      "category": "Headphones",
+      "price": 24999,
+      "discount": 18,
+      "rating": 4.9,
+      "inStock": true,
+      "color": "Black"
+    },
+    {
+      "id": 6,
+      "name": "Boat Rockerz 450",
+      "brand": "Boat",
+      "category": "Headphones",
+      "price": 1999,
+      "discount": 25,
+      "rating": 4.2,
+      "inStock": true,
+      "color": "Red"
+    },
+    {
+      "id": 7,
+      "name": "Dell Inspiron 15",
+      "brand": "Dell",
+      "category": "Laptop",
+      "price": 54999,
+      "discount": 8,
+      "rating": 4.4,
+      "inStock": true,
+      "color": "Silver"
+    },
+    {
+      "id": 8,
+      "name": "HP Pavilion",
+      "brand": "HP",
+      "category": "Laptop",
+      "price": 62999,
+      "discount": 12,
+      "rating": 4.6,
+      "inStock": false,
+      "color": "Silver"
+    },
+    {
+      "id": 9,
+      "name": "Fastrack Analog Watch",
+      "brand": "Fastrack",
+      "category": "Watches",
+      "price": 2499,
+      "discount": 30,
+      "rating": 4.1,
+      "inStock": true,
+      "color": "Black"
+    },
+    {
+      "id": 10,
+      "name": "Casio G-Shock",
+      "brand": "Casio",
+      "category": "Watches",
+      "price": 7999,
+      "discount": 15,
+      "rating": 4.7,
+      "inStock": true,
+      "color": "Green"
+    },
+    {
+      "id": 11,
+      "name": "Levi's Denim Jacket",
+      "brand": "Levi's",
+      "category": "Clothing",
+      "price": 3999,
+      "discount": 20,
+      "rating": 4.3,
+      "inStock": true,
+      "color": "Blue"
+    },
+    {
+      "id": 12,
+      "name": "Puma T-Shirt",
+      "brand": "Puma",
+      "category": "Clothing",
+      "price": 1499,
+      "discount": 10,
+      "rating": 4.0,
+      "inStock": false,
+      "color": "White"
+    },
+    {
+      "id": 13,
+      "name": "Canon EOS 1500D",
+      "brand": "Canon",
+      "category": "Camera",
+      "price": 36999,
+      "discount": 5,
+      "rating": 4.5,
+      "inStock": true,
+      "color": "Black"
+    },
+    {
+      "id": 14,
+      "name": "Logitech Wireless Mouse",
+      "brand": "Logitech",
+      "category": "Accessories",
+      "price": 1299,
+      "discount": 22,
+      "rating": 4.4,
+      "inStock": true,
+      "color": "Grey"
+    },
+    {
+      "id": 15,
+      "name": "JBL Bluetooth Speaker",
+      "brand": "JBL",
+      "category": "Speakers",
+      "price": 3499,
+      "discount": 18,
+      "rating": 4.6,
+      "inStock": true,
+      "color": "Blue"
+    }
+  ]
+}
